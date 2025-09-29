@@ -4,8 +4,8 @@ kind: Kustomization
 resources:
   - ../../base
 
-name-prefix: dev-
-name-suffix: ""
+namePrefix: dev-
+nameSuffix: ""
 
 patches:
   - path: patch-deployment.yaml
