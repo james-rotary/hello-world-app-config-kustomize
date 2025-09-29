@@ -11,4 +11,4 @@ patches:
   - patch-deployment.yaml
     target:
       kind: Deployment
-      name: 
+      name: hello-world-app
