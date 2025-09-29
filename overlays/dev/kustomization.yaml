@@ -8,7 +8,7 @@ name-prefix: dev-
 name-suffix: ""
 
 patches:
-  - patch-deployment.yaml
+  - path: patch-deployment.yaml
     target:
       kind: Deployment
       name: hello-world-app
